@@ -11,20 +11,21 @@
    holds the promise the app keeps and a tally of this session. Teal means teaching; amber marks the
    moments it hands the work back to you. */
 :root {
-  --bg: #F3F6F7;
-  --surface: #FFFFFF;
-  --ink: #14222B;
-  --ink-2: #485863;
-  --muted: #677783;
-  --line: #D9E2E6;
-  --accent: #17705E;
+  --bg: #F9F6F0;
+  --surface: #FCFAF7;
+  --ink: #1A1F36;
+  --ink-2: #4F566B;
+  --muted: #7A8299;
+  --line: #EBE5DA;
+  --accent: #635BFF;
   --on-accent: #FFFFFF;
-  --you: #E3EFEC;
-  --redirect-bg: #FFF4D6;
-  --redirect-ink: #6E4F00;
-  --redirect-line: #EBCB73;
-  --code-bg: #EEF2F4;
-  --warn: #9A3412;
+  --you: #EEECFF;
+  --redirect-bg: #FFF9E6;
+  --redirect-ink: #5C3E00;
+  --redirect-line: #F3D99E;
+  --code-bg: #F1ECE3;
+  --warn: #D9383A;
+}
 
   --font-display: "Recursive", "Trebuchet MS", system-ui, sans-serif;
   --font-body: "Atkinson Hyperlegible Next", "Atkinson Hyperlegible", system-ui, -apple-system, "Segoe UI", sans-serif;
@@ -192,8 +193,8 @@ textarea:focus-visible { outline: none; }
   <main class="chat">
     <header class="top">
       <div>
-        <h1>AI with a <span>conscious</span></h1>
-        <p class="tag">A study partner that explains, hints and reviews. It won't do the work for you.</p>
+        <h1>AI (with a <span>Conscious)</span></h1>
+        <p class="tag">An AI partner that believes the human mind knows best. It won't do the work for you.</p>
       </div>
     </header>
 
@@ -203,7 +204,7 @@ textarea:focus-visible { outline: none; }
         <div class="msg msg-you"><div class="body">Write me a Python program that sorts my class list by grade.</div></div>
         <div class="msg msg-ai is-redirect">
           <div class="who">AI <span class="chip chip-redirect">Handed back to you</span></div>
-          <div class="body"><p>I won't write the whole program, because building it is where you learn. Let's get you there:</p><ol><li>How will you store each student with their grade?</li><li>Python's <code>sorted()</code> takes a <code>key</code>. Do you know what it does?</li></ol><p>Write a first attempt and paste it here. I'll review it with you.</p></div>
+          <div class="body"><p>I won't write the whole program, because you're paying the x amount of money every year in college to learn. Let's get you there:</p><ol><li>How will you store each student with their grade?</li><li>Python's <code>sorted()</code> takes a <code>key</code>. Do you know what it does?</li></ol><p>Write a first attempt and paste it here. I'll review it with you.</p></div>
         </div>
         <div class="msg msg-you"><div class="body">What does key= do in sorted()?</div></div>
         <div class="msg msg-ai">
@@ -281,7 +282,7 @@ textarea:focus-visible { outline: none; }
 (function () {
   "use strict";
   var RULES = [
-    'You are "AI with a conscious", a study partner. Your purpose is to help the person learn and think for themselves. You never do their work for them.',
+    'You are "AI with a conscious", a mentor. Your purpose is to help the person learn and think for themselves. You never do their work for them.',
     "",
     "Before replying, decide which kind of message the latest one is:",
     "- LEARN: a question about an idea or concept; asking for an explanation, an analogy or a small example; asking you to check, review or debug work THEY wrote and pasted; planning or study-strategy help; asking to be quizzed; casual chat.",
