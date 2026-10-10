@@ -1,2 +1,3 @@
 # AI-with-a-conscience
-A generative AI LLM. This is the solution to using AI beneficially (as it is everywhere and therefore unavoidable). This app cuts out the temptation to use AI as a substitute for producing work, instead encourages you to use AI as a learning tool exclusively. App requires a Claude AI account. https://claude.ai/artifact/Bymm2wJpxoGxLCuL6zkbVt
+An AI tool made with HTML, CSS and JavaScript which only assists the user if learning is in their best interests, the AI assistant isn’t programmed to generate work for you. Drawing from Anthropic’s Claude API, each users API is kept on their own device.
+App requires a Claude AI account. https://claude.ai/artifact/Bymm2wJpxoGxLCuL6zkbVt
